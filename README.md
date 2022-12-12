@@ -1,36 +1,15 @@
-## Application Details
-|               |
-| ------------- |
-|**Generation Date and Time**<br>Mon Nov 21 2022 02:35:24 GMT+0000 (Coordinated Universal Time)|
-|**App Generator**<br>@sap/generator-fiori-freestyle|
-|**App Generator Version**<br>1.8.1|
-|**Generation Platform**<br>SAP Business Application Studio|
-|**Template Used**<br>simple|
-|**Service Type**<br>None|
-|**Service URL**<br>N/A
-|**Module Name**<br>project1|
-|**Application Title**<br>App Title|
-|**Namespace**<br>|
-|**UI5 Theme**<br>sap_horizon|
-|**UI5 Version**<br>1.102.1|
-|**Enable Code Assist Libraries**<br>False|
-|**Enable TypeScript**<br>False|
-|**Add Eslint configuration**<br>False|
+### git commit 규칙
 
-## project1
-
-A Fiori application.
-
-### Starting the generated app
-
--   This app has been generated using the SAP Fiori tools - App Generator, as part of the SAP Fiori tools suite.  In order to launch the generated app, simply run the following from the generated app root folder:
-
-```
-    npm start
-```
-
-#### Pre-requisites:
-
-1. Active NodeJS LTS (Long Term Support) version and associated supported NPM version.  (See https://nodejs.org)
-
-
+|명령어|내용|
+| :-----------------------------------: | :---------------------------------------: |
+| CHORE | 빌드 업무 수정, 패키지 매니저 수정 |
+| **ADD** |   코드나 테스트, 예제, 문서 등의 추가   |
+| **FIX** | 올바르지 않은 동작을 고친 경우 |
+| **REMOVE** |   코드의 삭제가 있을 때   |
+| **UPDATE** |   문서나 리소스, 라이브러리등의 수정, 추가, 보완   |
+| **FEAT** |  새로운 기능 추가   |
+| **CORRECT** | 주로 문법의 오류나 타입의 변경, 이름 변경 등   |
+| REFACTOR |   코드의 전면적인 수정   |
+| DOCS |  문서의 개정   |
+| RENAME | 파일의 이름 변경 |
+| TEST | TEST 코드 관련   |
